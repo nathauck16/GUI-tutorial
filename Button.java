@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.event.*;
 import java.awt.*;
 
-public class ButtonDemo implements ActionListener {
+class ButtonDemo implements ActionListener {
   JLabel label;
 
   ButtonDemo(){
@@ -27,7 +27,7 @@ public class ButtonDemo implements ActionListener {
 
 public void actionPerformed(ActionEvent ae) {
   if(ae.getActionCommand().equals("Up")){
-      label.setText("You pressed down");
+      label.setText("You pressed up");
   }
   else {
       label.setText("You pressed down");
